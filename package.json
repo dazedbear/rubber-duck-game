@@ -1,7 +1,17 @@
 {
   "name": "rubber-duck-game",
-  "version": "0.1.0",
+  "version": "0.0.0-development",
   "private": true,
+  "homepage": "https://dazedbear.github.io/rubber-duck-game",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dazedbear/rubber-duck-game.git"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "dev": "react-scripts start",
+    "test": "react-scripts test"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
@@ -19,11 +29,6 @@
     "sass": "^1.52.1",
     "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
-  },
-  "scripts": {
-    "dev": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": [
