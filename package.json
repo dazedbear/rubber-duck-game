@@ -10,7 +10,7 @@
   "scripts": {
     "build": "react-scripts build",
     "dev": "react-scripts start",
-    "test": "react-scripts test"
+    "test": "react-scripts test --passWithNoTests"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
