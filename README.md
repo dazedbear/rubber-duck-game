@@ -17,14 +17,14 @@ A practice project to implement the simple 90 seconds game which was one of the 
 
 ```bash
 # install dependency
-$ yarn
+$ npm i
 
 # run local server
-$ yarn dev
+$ npm run dev
 
 # run unit test
-$ yarn test
+$ npm run test
 
 # run build
-$ yarn build
+$ npm run build
 ```
