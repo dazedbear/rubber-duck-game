@@ -10,6 +10,7 @@
   "scripts": {
     "build": "react-scripts build",
     "dev": "react-scripts start",
+    "prepare": "husky install",
     "test": "react-scripts test --passWithNoTests"
   },
   "dependencies": {
@@ -59,11 +60,21 @@
     ]
   },
   "release": {
-    "branches": ["main"],
+    "branches": [
+      "main"
+    ],
     "plugins": [
-      "@semantic-release/commit-analyzer", 
+      "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
       "@semantic-release/github"
     ]
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
