@@ -18,6 +18,10 @@ jobs:
         run: npm run test
       - name: Build
         run: npm run build
+      - name: Release Note
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npx semantic-release
       - name: Deployment
         uses: JamesIves/github-pages-deploy-action@v4
         with:

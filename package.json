@@ -57,5 +57,13 @@
     "src/**/*.{js,jsx,json,ts,tsx,md,mdx,css,html,yml,yaml,scss,sass}": [
       "prettier --write"
     ]
+  },
+  "release": {
+    "branches": ["main"],
+    "plugins": [
+      "@semantic-release/commit-analyzer", 
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/github"
+    ]
   }
 }
