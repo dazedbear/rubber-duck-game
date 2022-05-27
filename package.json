@@ -10,7 +10,7 @@
   "scripts": {
     "build": "react-scripts build",
     "dev": "react-scripts start",
-    "prepare": "husky install",
+    "prepare": "is-ci || husky install",
     "test": "react-scripts test --passWithNoTests"
   },
   "dependencies": {
@@ -30,6 +30,7 @@
     "@types/react-dom": "^18.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.1",
+    "is-ci": "^3.0.1",
     "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
     "react-scripts": "5.0.1",
