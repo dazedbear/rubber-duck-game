@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/rubber-duck-game/static/css/main.7acaea2f.css",
-    "main.js": "/rubber-duck-game/static/js/main.278a3a80.js",
+    "main.css": "/rubber-duck-game/static/css/main.b5320759.css",
+    "main.js": "/rubber-duck-game/static/js/main.6725b77a.js",
     "index.html": "/rubber-duck-game/index.html",
-    "main.7acaea2f.css.map": "/rubber-duck-game/static/css/main.7acaea2f.css.map",
-    "main.278a3a80.js.map": "/rubber-duck-game/static/js/main.278a3a80.js.map"
+    "main.b5320759.css.map": "/rubber-duck-game/static/css/main.b5320759.css.map",
+    "main.6725b77a.js.map": "/rubber-duck-game/static/js/main.6725b77a.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.278a3a80.js"
+    "static/css/main.b5320759.css",
+    "static/js/main.6725b77a.js"
   ]
 }
